@@ -1,0 +1,67 @@
+---
+booktitle: Proceedings of The 14th International Conference on Grammatical Inference
+shortname: ICGI
+volume: 93
+year: '2018'
+start: 2018-09-05
+end: 2018-09-07
+published: 2019-02-04
+url: http://proceedings.mlr.press
+location: !binary |-
+  V3JvY8WCYXcsIFBvbGFuZA==
+layout: proceedings
+series: Proceedings of Machine Learning Research
+id: ICGI-2018
+month: 0
+cycles: false
+bibtex_editor: Unold, Olgierd and Dyrka, Witold and Wieczorek, Wojciech
+editor:
+- given: Olgierd
+  family: Unold
+- given: Witold
+  family: Dyrka
+- given: Wojciech
+  family: Wieczorek
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of The 14th International Conference on Grammatical Inference on 05-07 September 2018
+
+  Published as Volume 93 by the Proceedings of Machine Learning Research on 04 February 2019.
+
+  Volume Edited by:
+    Olgierd Unold
+    Witold Dyrka
+    Wojciech Wieczorek
+
+  Series Editors:
+    Neil D. Lawrence
+    Mark Reid
+date_str: 05--07 Sep
+baseurl: "/v93"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v93
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+email: ''
+conference:
+  name: International Conference on Grammatical Inference
+  url: 
+  location: ''
+  dates:
+  - 2018-09-05
+  - 2018-09-06
+  - 2018-09-07
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from /Users/neil/mlresearch/v93/icgi18.bib

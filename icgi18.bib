@@ -1,0 +1,97 @@
+@Proceedings{ICGI-2018,
+    booktitle = {Proceedings of The 14th International Conference on Grammatical Inference},
+    name = {International Conference on Grammatical Inference},
+    shortname = {ICGI},
+    editor = {Olgierd Unold and Witold Dyrka and Wojciech Wieczorek},
+    volume = {93},
+    year = {2018},
+    start = {2018-09-05},
+    end = {2018-09-07},
+    published = {2019-02-04},
+    url = {http://icgi2018.pwr.edu.pl},
+    location = {Wrocław, Poland}
+}
+
+@InProceedings{unold18,
+    title = {International Conference on Grammatical Inference 2018: Preface},
+    author = {Olgierd Unold and Witold Dyrka and Wojciech Wieczorek},
+    pages = {1-2},
+    abstract = {}
+}
+
+@InProceedings{kanazawa18,
+    title = {Decision problems for Clark-congruential languages},
+    author = {Makoto Kanazawa and Tobias Kapp\'e},
+    pages = {3-16},
+    abstract = {A common question when studying a class of context-free grammars (CFGs) is whether equivalence is decidable within this class. We answer this question positively for the class of <em>Clark-congruential grammars</em>, which are of interest to grammatical inference. We also consider the problem of checking whether a given CFG is Clark-congruential, and show that it is decidable given that the CFG is a deterministic CFG.}
+}
+
+@InProceedings{avellaneda18,
+    title = {Inferring DFA without Negative Examples},
+    author = {Florent Avellaneda and Alexandre Petrenko},
+    pages = {17-29},
+    abstract = {The inference of a Deterministic Finite Automaton (DFA) without negative examples is one of the most natural inference problems. On the other hand, it is well known that DFA cannot be identified in the limit from positive examples only. We propose two modifications of this problem to make it solvable, i.e., identifiable in the limit, while remaining rather close to the original problem. First, we propose to use the inclusion of languages to reason about complexity and infer the simplest solution. Second, we set the maximum number of states for the inferred DFA. These changes bring new means to control the solution space. While the language inclusion allows us to choose a simplest solution among possible solutions, the maximum number of states determines the degree of approximation. We propose an efficient inference method based on the incremental use of a SAT solver and demonstrate on a practical example the relevance of our approach.}
+}
+
+@InProceedings{groz18,
+    title = {Using Adaptive Sequences for Learning Non-Resettable FSMs},
+    author = {Roland Groz and Nicolas Bremond and Adenilso Simao},
+    pages = {30-43},
+    abstract = {This paper proposes a new method to infer non-resettable Mealy machines based on the notions of adaptive homing and characterizing used in FSM testing. This method does not require any knowledge on the system inferred apart from its input set. It progressively extends an output query, and also avoids almost all equivalence queries. It is fast, and scales to machines that have hundreds of states. It outperforms in most respect previous algorithms, and can even compete with algorithms that assume a reset.}
+}
+
+@InProceedings{wieczorek18,
+    title = {Suffix Classification Trees},
+    author = {Wojciech Wieczorek and Olgierd Unold and {\L}ukasz Strak},
+    pages = {44-53},
+    abstract = {In this paper, a new method for generating acyclic word graph is proposed. The essential characteristics of the method are: the construction of the data structure in linear time with respect to the size of an input and gathering factor frequencies. Moreover, it has been shown through a computational experiment that the proposed approach surpasses—with respect to AUC score—similar grammatical inference algorithms on the sequences from a real biological dataset.}
+}
+
+@InProceedings{moerman18,
+    title = {Learning Product Automata},
+    author = {Joshua Moerman},
+    pages = {54-66},
+    abstract = {We give an optimisation for active learning algorithms, applicable to learning Moore machines with decomposable outputs. These machines can be decomposed themselves by projecting on each output. This results in smaller components that can then be learnt with fewer queries. We give experimental evidence that this is a useful technique which can reduce the number of queries substantially. Only in some cases the performance is worsened by the slight overhead. Compositional methods are widely used throughout engineering, and the decomposition presented in this article promises to be particularly interesting for learning hardware systems.}
+}
+
+@InProceedings{dolatian18,
+    title = {Learning reduplication with 2-way finite-state transducers},
+    author = {Hossep Dolatian and Jeffrey Heinz},
+    pages = {67-80},
+    abstract = {Reduplication is a cross-linguistically common and productive word-formation mechanism. However, there are little to no learning results concerning it. This is partly due to the high computational complexity associated with copying, which often goes beyond standard finite-state technology and partly due to the absence of concrete computational models of reduplicative processes. We show here that reduplication can be modeled accurately and succinctly with 2-way finite-state transducers. Based on this finite-state representation, we identify a subclass of 2-way FSTs based on copying and Output Strictly Local functions. These so-called Concatenated Output Strictly Local functions (C-OSL) can model the majority of attested reduplicative processes we have surveyed. We introduce a simple extension to the inference algorithm for OSL functions that trivially leads to a provably correct learning result for C-OSL functions under the assumption that function concatenation is overtly marked.}
+}
+
+@InProceedings{ayache18,
+    title = {Explaining Black Boxes on Sequential Data using Weighted Automata},
+    author = {St\'ephane Ayache and R\'emi Eyraud and No\'e Goudian},
+    pages = {81-103},
+    abstract = {Understanding how a learned black box works is of crucial interest for the future of Machine Learning. In this paper, we pioneer the question of the global interpretability of learned black box models that assign numerical values to symbolic sequential data. To tackle that task, we propose a spectral algorithm for the extraction of weighted automata (WA) from such black boxes. This algorithm does not require the access to a dataset or to the inner representation of the black box: the inferred model can be obtained solely by querying the black box, feeding it with inputs and analyzing its outputs. Experiments using Recurrent Neural Networks (RNN) trained on a wide collection of 48 synthetic datasets and 2 real datasets show that the obtained approximation is of great quality.}
+}
+
+@InProceedings{amortila18,
+    title = {Learning Graph Weighted Models on Pictures},
+    author = {Philip Amortila and Guillaume Rabusseau},
+    pages = {104-117},
+    abstract = {Graph Weighted Models (GWMs) have recently been proposed as a natural generalization of weighted automata over strings and trees to arbitrary families of labeled graphs (and hypergraphs). A GWM generically associates a labeled graph with a tensor network and computes a value by successive contractions directed by its edges. In this paper, we consider the problem of learning GWMs defined over the graph family of pictures (or 2-dimensional words). As a proof of concept, we consider regression and classification tasks over the simple <em>Bars & Stripes</em> and <em>Shifting Bits</em> picture languages and provide an experimental study investigating whether these languages can be learned in the form of a GWM from positive and negative examples using gradient-based methods. Our results suggest that this is indeed possible and that investigating the use of gradient-based methods to learn picture series and functions computed by GWMs over other families of graphs could be a fruitful direction.}
+}
+
+@InProceedings{pyzik18,
+    title = {How to measure the topological quality of protein parse trees?},
+    author = {Mateusz Pyzik and Fran\c{c}ois Coste and Witold Dyrka},
+    pages = {118-138},
+    abstract = {Human readability and, consequently, interpretability is often considered a key advantage of grammatical descriptors. Beyond the natural language, this is also true in analyzing biological sequences of RNA, typically modeled by grammars of at least context-free level of expressiveness. However, in protein sequence analysis, the explanatory power of grammatical descriptors beyond regular has never been thoroughly assessed. Since the biological meaning of a protein molecule is directly related to its spatial structure, it is justified to expect that the parse tree of a protein sequence reflects the spatial structure of the protein. In this piece of research, we propose and assess quantitative measures for comparing topology of the parse tree of a context-free grammar with topology of the protein structure succinctly represented by a contact map. Our results are potentially interesting beyond its bioinformatic context wherever a reference matrix of dependencies between sequence constituents is available.}
+}
+
+@InProceedings{manevich18,
+    title = {Inferring Program Extensions from Traces},
+    author = {Roman Manevich and Sharon Shoham},
+    pages = {139-154},
+    abstract = {We present an algorithm for learning a non-trivial class of imperative programs. The algorithm accepts positive traces—input stores followed by a sequence of commands—and returns a program that <em>extends</em> the target program. That is, it behaves the same as the target program on all valid inputs—inputs for which the target program successfully terminates, and may behave arbitrarily on other inputs. Our algorithm is based on a quotient construction of the control flow graph of the target program. Since not all programs have a quotient in a convenient form, the ability to infer an extension of the target program increases the class of inferred programs. We have implemented our algorithm and applied it successfully to learn a variety of programs that operate over linked data structures and integer arithmetic.}
+}
+
+@InProceedings{coste18,
+    title = {Learning local substitutable context-free languages from positive examples in polynomial time and data by reduction},
+    author = {Fran\c{c}ois Coste and Jacques Nicolas},
+    pages = {155-168},
+    abstract = {To study more formally the approach by reduction initiated by ReGLiS, we propose a formal characterization of the grammars in reduced normal form (RNF) which can be learned by this approach. A modification of the core of ReGLiS is then proposed to ensure returning RNF grammars in polynomial time. This enables us to show that local substitutable languages represented by RNF context-free grammars are identifiable in polynomial time and thick data (IPTtD) from positive examples.}
+}

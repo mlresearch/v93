@@ -1,8 +1,8 @@
 ---
-booktitle: Proceedings of The 14th International Conference on Grammatical Inference
+booktitle: Proceedings of The 14th International Conference on Grammatical Inference 2018
 shortname: ICGI
 volume: 93
-year: '2018'
+year: '2019'
 start: 2018-09-05
 end: 2018-09-07
 published: 2019-02-04
@@ -37,7 +37,7 @@ description: |
   Series Editors:
     Neil D. Lawrence
     Mark Reid
-date_str: 05--07 Sep
+date_str: feb
 baseurl: "/v93"
 twitter_username: MLResearchPress
 github_username: mlresearch

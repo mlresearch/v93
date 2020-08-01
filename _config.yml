@@ -8,6 +8,8 @@ start: 2018-09-05
 end: 2018-09-07
 published: 2019-02-04
 url: http://proceedings.mlr.press
+author:
+  name: PMLR
 location: !binary |-
   V3JvY8WCYXcsIFBvbGFuZA==
 layout: proceedings

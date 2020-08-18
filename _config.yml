@@ -1,6 +1,7 @@
 ---
 booktitle: Proceedings of The 14th International Conference on Grammatical Inference
   2018
+orig_bibfile: "/Users/neil/mlresearch/bibtex.bib"
 shortname: ICGI
 volume: 93
 year: '2019'
@@ -46,6 +47,10 @@ baseurl: "/v93"
 twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
 style: pmlr
 plugins:
 - jekyll-feed
@@ -74,6 +79,5 @@ conference:
 analytics:
   google:
     tracking_id: UA-92432422-1
-orig_bibfile: "/Users/neil/mlresearch/bibtex.bib"
 # Site settings
 # Original source:  /Users/neil/mlresearch/bibtex.bib
